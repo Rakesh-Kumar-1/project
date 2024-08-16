@@ -1,0 +1,28 @@
+.body{
+    margin: 0;
+    padding: 0;
+    background-image: url("home_board2.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+}
+header{
+    font-size: 4vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+@media only screen and (max-width: 500px) {
+    body {
+      margin: 0;
+      padding: 0;
+      background-image: url("home_board2.jpg");
+      background-size:contain;
+      background-position:inherit;
+    }
+    header{
+        font-size: 2vh;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+}

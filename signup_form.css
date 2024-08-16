@@ -1,0 +1,41 @@
+.body{
+    margin: 0;
+    padding-top: 0;
+    background-image:url("home_board2.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment:fixed;
+}
+.signup_form{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    position:relative;
+    top: 50px;
+    left: 10%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px rgba(77, 78, 78, 0.568);
+    padding: 10px;
+    padding-bottom: 0px;
+}
+.signup_form:hover{
+    border-radius: 20px;
+    box-shadow: 0px 0px 50px rgb(49, 133, 211);
+}
+.login_form{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    position:fixed;
+    top: 15%;
+    left: 15%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px rgba(77, 78, 78, 0.568);
+    padding: 10px;
+    padding-bottom: 0px;
+}
+.login_form:hover{
+    border-radius: 20px;
+    box-shadow: 0px 0px 50px rgb(49, 133, 211);
+}
